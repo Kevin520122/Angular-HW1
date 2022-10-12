@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+}
+@media screen and (min-width: 1000px) {
+   
+    ul{
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  
+  }
+  

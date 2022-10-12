@@ -1,0 +1,16 @@
+li{
+    display: flex;
+    align-items: space-between;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+    float: left
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px
+}
