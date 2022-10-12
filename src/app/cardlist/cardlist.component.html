@@ -1,0 +1,9 @@
+<app-header [ngStyle]="{'color': color}"></app-header>
+<ul>
+   <app-card 
+   *ngFor="let card of cardList" 
+   [Card]="card" 
+   (emitCardId)="colorEffect($event)"
+   
+   ></app-card> 
+</ul>

@@ -1,0 +1,9 @@
+<li [ngStyle]="{'boxShadow': Card.shadow, 'border': Card.border}">
+    <div class="header">
+        {{Card.title}}
+    </div>
+    <div class="content">
+        {{Card.content}}
+    </div>
+    <button [ngStyle]="{'background-color': Card.buttonColor}" (click)="colorEffect()">Color Change</button>
+</li>
